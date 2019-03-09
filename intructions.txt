@@ -1,0 +1,6 @@
+With Matlab properly configured for C++ mex compilation, run the following commands from the MyFM directory, in the Matlab console:
+
+mex MyFM/FastMarchingEikonalMobilityNewton.cpp
+mex MyFM/FastMarchingExtend.cpp
+
+Then run shootingFM.m for an example of the shooting algorithm on the artificial data example stored in Random2.mat 
